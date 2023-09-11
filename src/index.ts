@@ -1,5 +1,6 @@
 import getAllItemsFromMongo from './getAllItemsFromMongo';
 import writeToFile from './writeToFile';
+import { MongoInfo, ExportBy } from './@types/mongo';
 
 
 export default async (dbInfo: MongoInfo, path: string, exportBy: ExportBy) => {
