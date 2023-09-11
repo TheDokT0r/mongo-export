@@ -6,6 +6,8 @@ declare global {
     }
 
     type ExportType = 'json' | 'yml';
+
+    type ExportBy = 'document' | 'collection';
 }
 
-export { }
+export { };
